@@ -1,9 +1,8 @@
 # TrashSort
-This is a project that uses image detection and AI for sorting trash, modeled with an ESP8266 and Raspberry Pi as a web server.
+This project is an AI based trash classifier to sort trash more efficiently.  It is modeled with a Raspberry Pi to show full-scale implementation is doable, and is also a good hands-on introduction to CV (computer vision), AI, Raspberry Pi, and a good way to contribute to the community.
 ##  Hardware
-[Raspberry Pi (Any Wifi enabled)]()  
-[NodeMCU ESP8266 ESP-12]()  
-[ov7670 camera]()  
+[Raspberry Pi]()  
+[RPi Camera Module]() 
 ## Installation process
 Install Apache server: `sudo apt-get install apache2 -y`  
 Change to default website directory, delete old dir: `sudo cd /var/www && rm -r html`   

@@ -1,12 +1,18 @@
 # TrashSort
-This project is an AI based trash classifier to sort trash more efficiently.  It is modeled with a Raspberry Pi to show full-scale implementation is doable, and is also a good hands-on introduction to CV (computer vision), AI, Raspberry Pi, and a good way to contribute to the community.
+TrashSort is an AI based trash classifier that uses computer vision sort trash efficiently.  Our project models a full scale system with to show large platform implementation is viable, while also providing a good hands-on introduction to CV and AI.
 ##  Hardware
 [Raspberry Pi]()  
 [RPi Camera Module]() 
 ## Installation process
-Install Apache server: `sudo apt-get install apache2 -y`  
+Install Nginx (server): `sudo apt install nginx -y`  
 Change to default website directory, delete old dir: `sudo cd /var/www && rm -r html`   
 Clone this repository: `git clone https://github.com/alexlynd/trashsort`  
 Change ownership: `chown -R pi trashsort`  
-`cd /etc/apache2/`  
+`cd /etc/nginx/`  
 *incomplete*  
+## ChangeLog | Stuff to Add
+- Implement hardware system
+- Server modeling on local devices
+- Train better models
+- Documentation 
+- Create installation script
